@@ -1,0 +1,912 @@
+[
+  {
+    "car": [
+      {
+        "id": "1219131c-d060-4531-b3dc-f7e5cf029b30",
+        "status": "Available",
+        "created_at": "2023-08-01T00:25:02.513Z",
+        "updated_at": "2023-07-31T23:26:48.998Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e874a3d7-da14-434c-8747-439618e705aa",
+        "status": "In use",
+        "created_at": "2023-08-01T02:40:55.238Z",
+        "updated_at": "2023-07-31T18:18:08.557Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5ba8250e-5c28-49e4-806e-65d967554d8c",
+        "status": "Under maintenance",
+        "created_at": "2023-08-01T02:40:23.441Z",
+        "updated_at": "2023-07-31T19:03:13.957Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f6858c08-79d5-4d0c-9fce-e49e74ef3c96",
+        "status": "Out of service",
+        "created_at": "2023-07-31T22:42:50.529Z",
+        "updated_at": "2023-07-31T13:03:23.076Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6773b164-ea54-4ed1-89cc-50deb085709b",
+        "status": "Reserved",
+        "created_at": "2023-08-01T04:56:46.400Z",
+        "updated_at": "2023-07-31T20:54:46.688Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d9cf777f-0570-4642-b4d6-13dd5200741b",
+        "date": "2023-07-31T14:14:59.146Z",
+        "time": "2023-07-31T19:36:38.164Z",
+        "location": "New York",
+        "created_at": "2023-08-01T08:03:48.785Z",
+        "updated_at": "2023-07-31T12:52:39.560Z",
+        "car_id": "6773b164-ea54-4ed1-89cc-50deb085709b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3528999e-39b6-41c7-81bc-ecbf41ab9f66",
+        "date": "2023-07-31T14:30:13.651Z",
+        "time": "2023-08-01T00:20:38.203Z",
+        "location": "London",
+        "created_at": "2023-07-31T14:51:03.874Z",
+        "updated_at": "2023-07-31T23:20:27.641Z",
+        "car_id": "1219131c-d060-4531-b3dc-f7e5cf029b30",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c2ad0ff-134e-47b0-a07d-9a26d9e1bcea",
+        "date": "2023-08-01T02:28:25.703Z",
+        "time": "2023-08-01T01:53:59.409Z",
+        "location": "Tokyo",
+        "created_at": "2023-07-31T15:00:00.322Z",
+        "updated_at": "2023-07-31T11:06:33.737Z",
+        "car_id": "f6858c08-79d5-4d0c-9fce-e49e74ef3c96",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1347ee8-2b21-4ea4-b752-3c744761c603",
+        "date": "2023-07-31T16:33:14.016Z",
+        "time": "2023-07-31T19:03:16.845Z",
+        "location": "Paris",
+        "created_at": "2023-08-01T04:45:07.825Z",
+        "updated_at": "2023-07-31T20:36:20.024Z",
+        "car_id": "5ba8250e-5c28-49e4-806e-65d967554d8c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d9fe52b-80fc-4eec-890f-11b9b0c469a3",
+        "date": "2023-07-31T12:49:26.071Z",
+        "time": "2023-08-01T09:55:10.879Z",
+        "location": "Sydney",
+        "created_at": "2023-07-31T16:44:08.930Z",
+        "updated_at": "2023-08-01T07:45:02.297Z",
+        "car_id": "f6858c08-79d5-4d0c-9fce-e49e74ef3c96",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "4def85b8-52cd-4003-9be4-f49f4ce8bd77",
+        "status": "Available",
+        "created_at": "2023-08-01T04:49:36.877Z",
+        "updated_at": "2023-08-01T06:49:09.243Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "61b7536b-652a-4cb3-ad91-fe823a6bf79b",
+        "status": "In use",
+        "created_at": "2023-07-31T19:39:04.851Z",
+        "updated_at": "2023-07-31T11:15:12.340Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c751e08d-e044-4370-ac58-93400cdc1647",
+        "status": "Under maintenance",
+        "created_at": "2023-07-31T15:57:03.258Z",
+        "updated_at": "2023-08-01T08:18:31.312Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3202b57f-e734-47f0-9f9d-13cb52c7e8f1",
+        "status": "Out of service",
+        "created_at": "2023-08-01T03:58:28.277Z",
+        "updated_at": "2023-08-01T05:50:21.265Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "81604385-ff35-40d7-8ee9-c4981ac988e8",
+        "status": "Reserved",
+        "created_at": "2023-08-01T08:27:12.815Z",
+        "updated_at": "2023-07-31T16:03:07.557Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "556218e1-bf68-4b3f-b843-bef9ba4137eb",
+        "date": "2023-08-01T00:15:53.040Z",
+        "time": "2023-08-01T09:57:55.214Z",
+        "location": "New York",
+        "created_at": "2023-07-31T19:20:53.276Z",
+        "updated_at": "2023-07-31T23:30:22.640Z",
+        "car_id": "c751e08d-e044-4370-ac58-93400cdc1647",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2222df91-551e-46d4-98ec-c6a46ffda9e2",
+        "date": "2023-07-31T20:11:14.621Z",
+        "time": "2023-07-31T23:44:02.866Z",
+        "location": "London",
+        "created_at": "2023-07-31T10:39:47.218Z",
+        "updated_at": "2023-07-31T18:00:38.256Z",
+        "car_id": "c751e08d-e044-4370-ac58-93400cdc1647",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "060f7eab-b976-442d-bbbc-7e10d01c2318",
+        "date": "2023-07-31T19:52:44.458Z",
+        "time": "2023-07-31T19:57:36.038Z",
+        "location": "Tokyo",
+        "created_at": "2023-07-31T13:29:10.163Z",
+        "updated_at": "2023-07-31T17:02:12.885Z",
+        "car_id": "81604385-ff35-40d7-8ee9-c4981ac988e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c0f4d81-948d-4139-a935-27df2c59b57e",
+        "date": "2023-08-01T03:38:25.691Z",
+        "time": "2023-07-31T14:22:45.231Z",
+        "location": "Paris",
+        "created_at": "2023-08-01T07:04:10.882Z",
+        "updated_at": "2023-08-01T06:23:48.424Z",
+        "car_id": "3202b57f-e734-47f0-9f9d-13cb52c7e8f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bb02092-eec0-42a6-8376-8a0fe60523d6",
+        "date": "2023-07-31T11:16:11.977Z",
+        "time": "2023-07-31T18:54:49.520Z",
+        "location": "Sydney",
+        "created_at": "2023-07-31T17:48:37.757Z",
+        "updated_at": "2023-07-31T15:13:21.353Z",
+        "car_id": "c751e08d-e044-4370-ac58-93400cdc1647",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "c8e47a20-4767-43a5-8f63-6b29167d7247",
+        "status": "Available",
+        "created_at": "2023-07-31T21:24:57.891Z",
+        "updated_at": "2023-07-31T14:21:37.095Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7efd40eb-7e8b-43f2-9a7d-cb7f82a958f9",
+        "status": "In use",
+        "created_at": "2023-08-01T04:43:55.562Z",
+        "updated_at": "2023-08-01T10:26:06.807Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ebcf28ba-9ad5-4845-954f-b3de0515afb9",
+        "status": "Under maintenance",
+        "created_at": "2023-08-01T05:55:09.133Z",
+        "updated_at": "2023-08-01T01:38:58.422Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ca4c5aaa-f044-4b3b-9488-d663d8409ec5",
+        "status": "Out of service",
+        "created_at": "2023-07-31T17:35:49.484Z",
+        "updated_at": "2023-08-01T02:14:15.157Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c16f1dac-88f7-4915-a5ca-3a0d75bf8399",
+        "status": "Reserved",
+        "created_at": "2023-07-31T14:05:06.139Z",
+        "updated_at": "2023-07-31T16:45:21.465Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "cca64f5d-7622-4d69-bc04-fe34f29a3fb2",
+        "date": "2023-07-31T11:32:27.938Z",
+        "time": "2023-07-31T12:21:15.288Z",
+        "location": "New York",
+        "created_at": "2023-07-31T21:49:47.234Z",
+        "updated_at": "2023-08-01T02:35:38.175Z",
+        "car_id": "c8e47a20-4767-43a5-8f63-6b29167d7247",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43ff1bb1-24ae-49c9-b9f8-086ff99e2df8",
+        "date": "2023-08-01T00:52:59.933Z",
+        "time": "2023-08-01T06:26:33.234Z",
+        "location": "London",
+        "created_at": "2023-07-31T23:19:09.711Z",
+        "updated_at": "2023-07-31T12:33:12.557Z",
+        "car_id": "ca4c5aaa-f044-4b3b-9488-d663d8409ec5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cefc31c2-c528-437d-983f-e922f48460ad",
+        "date": "2023-08-01T10:24:09.954Z",
+        "time": "2023-07-31T15:05:05.339Z",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T10:27:14.105Z",
+        "updated_at": "2023-08-01T10:20:15.152Z",
+        "car_id": "ca4c5aaa-f044-4b3b-9488-d663d8409ec5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "133f892c-05db-4d1f-b0af-a3769d28870a",
+        "date": "2023-07-31T15:54:26.529Z",
+        "time": "2023-07-31T11:06:49.797Z",
+        "location": "Paris",
+        "created_at": "2023-07-31T22:23:16.905Z",
+        "updated_at": "2023-08-01T05:52:32.958Z",
+        "car_id": "c16f1dac-88f7-4915-a5ca-3a0d75bf8399",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f976264-5ba8-49f8-8bdc-4e6238e8e53f",
+        "date": "2023-08-01T09:32:39.604Z",
+        "time": "2023-07-31T21:51:16.554Z",
+        "location": "Sydney",
+        "created_at": "2023-08-01T10:13:05.859Z",
+        "updated_at": "2023-08-01T10:06:19.956Z",
+        "car_id": "ca4c5aaa-f044-4b3b-9488-d663d8409ec5",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "c7454b53-9697-4487-b0b2-94d368d905a9",
+        "status": "Available",
+        "created_at": "2023-07-31T11:24:52.133Z",
+        "updated_at": "2023-07-31T12:16:31.822Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9bf7082c-1539-45eb-90af-6c8d74ebe2ba",
+        "status": "In use",
+        "created_at": "2023-07-31T16:08:04.501Z",
+        "updated_at": "2023-07-31T13:46:06.481Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fea09be1-4e7c-46a3-85a7-85dd2bb3b8f8",
+        "status": "Under maintenance",
+        "created_at": "2023-07-31T14:23:28.506Z",
+        "updated_at": "2023-08-01T07:01:23.071Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "13b1ff58-9d23-414e-86e1-14182441cbd8",
+        "status": "Out of service",
+        "created_at": "2023-08-01T03:19:38.511Z",
+        "updated_at": "2023-07-31T20:51:08.973Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0beb6a58-d24e-463a-90d4-89c86da649c0",
+        "status": "Reserved",
+        "created_at": "2023-07-31T17:26:14.640Z",
+        "updated_at": "2023-08-01T07:05:55.951Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a3a96a45-3af8-48b0-88ba-0cbfec8fcc91",
+        "date": "2023-07-31T21:03:02.333Z",
+        "time": "2023-08-01T02:43:43.686Z",
+        "location": "New York",
+        "created_at": "2023-08-01T05:50:11.206Z",
+        "updated_at": "2023-07-31T13:54:29.860Z",
+        "car_id": "13b1ff58-9d23-414e-86e1-14182441cbd8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e48b801d-f045-433e-84ac-e5b5e0bfa964",
+        "date": "2023-07-31T17:41:37.123Z",
+        "time": "2023-07-31T21:52:23.735Z",
+        "location": "London",
+        "created_at": "2023-07-31T13:27:32.019Z",
+        "updated_at": "2023-07-31T11:51:24.346Z",
+        "car_id": "9bf7082c-1539-45eb-90af-6c8d74ebe2ba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a25b3d5-dacb-4d07-9f1f-5b568b1d5e5f",
+        "date": "2023-08-01T08:26:10.864Z",
+        "time": "2023-07-31T13:46:01.716Z",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T09:50:22.909Z",
+        "updated_at": "2023-08-01T08:51:33.817Z",
+        "car_id": "9bf7082c-1539-45eb-90af-6c8d74ebe2ba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c13a0b8-a37a-4f6f-b656-84c2ff091fc6",
+        "date": "2023-07-31T18:42:21.334Z",
+        "time": "2023-07-31T11:29:29.991Z",
+        "location": "Paris",
+        "created_at": "2023-07-31T14:38:45.009Z",
+        "updated_at": "2023-08-01T03:00:18.093Z",
+        "car_id": "fea09be1-4e7c-46a3-85a7-85dd2bb3b8f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f927254-c7ca-4aae-9202-9f06d86a2899",
+        "date": "2023-08-01T09:47:37.457Z",
+        "time": "2023-07-31T23:39:20.558Z",
+        "location": "Sydney",
+        "created_at": "2023-08-01T08:31:59.449Z",
+        "updated_at": "2023-07-31T15:03:56.284Z",
+        "car_id": "c7454b53-9697-4487-b0b2-94d368d905a9",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "5077f6ce-314d-4cc0-9126-6a2229727044",
+        "status": "Available",
+        "created_at": "2023-07-31T14:29:42.666Z",
+        "updated_at": "2023-08-01T03:11:04.454Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9f5803d4-2ec7-49e3-b80d-857e203324d2",
+        "status": "In use",
+        "created_at": "2023-07-31T23:26:42.111Z",
+        "updated_at": "2023-07-31T11:47:53.382Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4331b800-6da5-4bc1-a476-41ce356414c1",
+        "status": "Under maintenance",
+        "created_at": "2023-07-31T13:22:25.699Z",
+        "updated_at": "2023-08-01T05:56:40.410Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7dc96899-3094-4a67-8e0e-f741389f319a",
+        "status": "Out of service",
+        "created_at": "2023-07-31T15:44:24.972Z",
+        "updated_at": "2023-07-31T18:27:34.704Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ab31390e-d22f-4af3-9a6c-769da45fe539",
+        "status": "Reserved",
+        "created_at": "2023-08-01T01:18:19.794Z",
+        "updated_at": "2023-07-31T16:04:44.845Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1f6f7b0d-961b-46c2-b4da-cc07434c148c",
+        "date": "2023-07-31T18:34:34.005Z",
+        "time": "2023-08-01T05:13:23.459Z",
+        "location": "New York",
+        "created_at": "2023-07-31T15:42:34.897Z",
+        "updated_at": "2023-07-31T21:49:07.447Z",
+        "car_id": "5077f6ce-314d-4cc0-9126-6a2229727044",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fdb6455-416e-44d0-89e4-517954693e7b",
+        "date": "2023-07-31T18:27:14.193Z",
+        "time": "2023-07-31T22:38:27.781Z",
+        "location": "London",
+        "created_at": "2023-07-31T19:50:30.731Z",
+        "updated_at": "2023-07-31T17:21:02.648Z",
+        "car_id": "ab31390e-d22f-4af3-9a6c-769da45fe539",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "915ef8e1-f528-47c5-a819-c502d9e115bb",
+        "date": "2023-07-31T22:25:32.203Z",
+        "time": "2023-08-01T06:54:12.190Z",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T02:35:11.606Z",
+        "updated_at": "2023-08-01T07:36:06.969Z",
+        "car_id": "4331b800-6da5-4bc1-a476-41ce356414c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65763843-4def-427d-b6fe-b88f9fe846bb",
+        "date": "2023-08-01T00:14:33.561Z",
+        "time": "2023-07-31T13:58:56.779Z",
+        "location": "Paris",
+        "created_at": "2023-07-31T14:35:34.637Z",
+        "updated_at": "2023-08-01T03:24:05.019Z",
+        "car_id": "7dc96899-3094-4a67-8e0e-f741389f319a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad9a7162-0385-4999-a6b6-1e462bf30168",
+        "date": "2023-07-31T17:14:40.155Z",
+        "time": "2023-08-01T07:45:56.104Z",
+        "location": "Sydney",
+        "created_at": "2023-07-31T16:19:21.842Z",
+        "updated_at": "2023-08-01T10:13:43.632Z",
+        "car_id": "5077f6ce-314d-4cc0-9126-6a2229727044",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "25e34c3f-c5e1-4bf3-aee7-d62010de8fc3",
+        "status": "Available",
+        "created_at": "2023-07-31T15:52:59.629Z",
+        "updated_at": "2023-07-31T20:49:20.155Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dc2c0145-f511-4e01-8365-5942616445c9",
+        "status": "In use",
+        "created_at": "2023-08-01T09:08:54.328Z",
+        "updated_at": "2023-08-01T06:16:12.189Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "23639fda-aed1-4df4-a108-1106f3436184",
+        "status": "Under maintenance",
+        "created_at": "2023-07-31T14:27:19.194Z",
+        "updated_at": "2023-07-31T23:57:25.660Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e5d3ea7c-e489-4c3d-9b0b-504de4d248f0",
+        "status": "Out of service",
+        "created_at": "2023-08-01T07:51:54.692Z",
+        "updated_at": "2023-07-31T17:33:25.589Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cb699249-0870-43b0-bfe7-b9ddcc44cd8c",
+        "status": "Reserved",
+        "created_at": "2023-07-31T17:57:02.559Z",
+        "updated_at": "2023-08-01T03:45:34.686Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "81469677-8051-4f93-becd-0912ccecd618",
+        "date": "2023-08-01T07:23:51.547Z",
+        "time": "2023-08-01T04:45:08.934Z",
+        "location": "New York",
+        "created_at": "2023-08-01T02:29:36.076Z",
+        "updated_at": "2023-07-31T15:41:31.102Z",
+        "car_id": "25e34c3f-c5e1-4bf3-aee7-d62010de8fc3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0890f39-d788-4c63-8ee7-0ee3b93a7480",
+        "date": "2023-07-31T21:08:54.820Z",
+        "time": "2023-08-01T05:40:37.582Z",
+        "location": "London",
+        "created_at": "2023-07-31T13:28:33.109Z",
+        "updated_at": "2023-07-31T12:15:19.904Z",
+        "car_id": "dc2c0145-f511-4e01-8365-5942616445c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fa5f7e6-5b63-49fa-81a6-dfebec5e1917",
+        "date": "2023-07-31T21:18:30.135Z",
+        "time": "2023-08-01T03:20:37.503Z",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T06:22:04.855Z",
+        "updated_at": "2023-07-31T10:34:13.878Z",
+        "car_id": "e5d3ea7c-e489-4c3d-9b0b-504de4d248f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a4d706e-295b-4cbb-b919-a19659c479a6",
+        "date": "2023-08-01T02:10:29.919Z",
+        "time": "2023-07-31T15:24:13.272Z",
+        "location": "Paris",
+        "created_at": "2023-07-31T11:43:10.191Z",
+        "updated_at": "2023-07-31T15:46:47.104Z",
+        "car_id": "e5d3ea7c-e489-4c3d-9b0b-504de4d248f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73596935-79c9-4558-9106-05511be8914d",
+        "date": "2023-08-01T09:53:19.046Z",
+        "time": "2023-07-31T11:58:19.900Z",
+        "location": "Sydney",
+        "created_at": "2023-08-01T09:06:48.193Z",
+        "updated_at": "2023-08-01T04:51:04.805Z",
+        "car_id": "25e34c3f-c5e1-4bf3-aee7-d62010de8fc3",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "9d30dafc-6fa5-4c49-a33c-aedd5ee9104a",
+        "status": "Available",
+        "created_at": "2023-07-31T20:34:52.651Z",
+        "updated_at": "2023-07-31T22:59:46.635Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "08e97d9e-7d91-4641-bca6-20780676be0f",
+        "status": "In use",
+        "created_at": "2023-07-31T19:51:05.360Z",
+        "updated_at": "2023-08-01T01:21:02.734Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5850d261-e495-458e-97dd-04558269bba2",
+        "status": "Under maintenance",
+        "created_at": "2023-08-01T09:45:44.405Z",
+        "updated_at": "2023-08-01T10:17:25.002Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8fd0b26b-59c2-4191-9840-8e0146f0dc23",
+        "status": "Out of service",
+        "created_at": "2023-07-31T13:25:02.224Z",
+        "updated_at": "2023-07-31T21:14:46.577Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "382ab6d6-5302-4fb9-b3b7-b37e1885c18c",
+        "status": "Reserved",
+        "created_at": "2023-08-01T06:44:15.235Z",
+        "updated_at": "2023-08-01T03:05:32.134Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "9a3f54b8-96ca-40cd-a541-de8bc0bf1f8b",
+        "date": "2023-08-01T04:18:52.941Z",
+        "time": "2023-07-31T21:17:15.138Z",
+        "location": "New York",
+        "created_at": "2023-08-01T05:15:48.487Z",
+        "updated_at": "2023-08-01T00:48:39.058Z",
+        "car_id": "5850d261-e495-458e-97dd-04558269bba2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f487c9f-56bc-4891-b1da-6fd58de5ea74",
+        "date": "2023-07-31T20:51:33.069Z",
+        "time": "2023-07-31T22:07:40.489Z",
+        "location": "London",
+        "created_at": "2023-08-01T09:38:00.666Z",
+        "updated_at": "2023-08-01T07:41:15.886Z",
+        "car_id": "382ab6d6-5302-4fb9-b3b7-b37e1885c18c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c49b550-8696-4af2-be06-f4ae6f938899",
+        "date": "2023-07-31T19:06:24.454Z",
+        "time": "2023-07-31T17:47:46.834Z",
+        "location": "Tokyo",
+        "created_at": "2023-07-31T17:42:39.599Z",
+        "updated_at": "2023-08-01T04:48:58.339Z",
+        "car_id": "5850d261-e495-458e-97dd-04558269bba2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "669c865c-2bf7-496f-94e8-5064af061c9a",
+        "date": "2023-08-01T06:11:21.647Z",
+        "time": "2023-07-31T15:20:16.063Z",
+        "location": "Paris",
+        "created_at": "2023-07-31T22:02:36.480Z",
+        "updated_at": "2023-07-31T14:30:07.665Z",
+        "car_id": "9d30dafc-6fa5-4c49-a33c-aedd5ee9104a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f39c409-8f14-4488-8a73-56b9c721d117",
+        "date": "2023-08-01T09:38:28.282Z",
+        "time": "2023-07-31T21:29:50.967Z",
+        "location": "Sydney",
+        "created_at": "2023-07-31T14:47:32.057Z",
+        "updated_at": "2023-08-01T03:26:08.621Z",
+        "car_id": "8fd0b26b-59c2-4191-9840-8e0146f0dc23",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "a3c035d5-75b6-44a1-a3a6-548c8a229434",
+        "status": "Available",
+        "created_at": "2023-08-01T03:15:22.050Z",
+        "updated_at": "2023-07-31T12:26:13.791Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cf4ddea2-ce03-463b-92a3-e2221dd69fd8",
+        "status": "In use",
+        "created_at": "2023-07-31T18:23:44.864Z",
+        "updated_at": "2023-07-31T16:17:52.862Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "df1a9d78-8087-49e0-b075-bffc6b36f599",
+        "status": "Under maintenance",
+        "created_at": "2023-07-31T13:14:41.186Z",
+        "updated_at": "2023-08-01T02:22:12.064Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fc4cf61f-0077-4ca1-bafc-a018e0b960ee",
+        "status": "Out of service",
+        "created_at": "2023-08-01T07:26:22.482Z",
+        "updated_at": "2023-08-01T07:40:46.205Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b3f85b68-bc14-4542-9cfd-fde3aadfd5d7",
+        "status": "Reserved",
+        "created_at": "2023-08-01T01:44:41.072Z",
+        "updated_at": "2023-08-01T09:13:15.547Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "707c917b-c2cf-42d1-8ab5-db3531c6461b",
+        "date": "2023-07-31T22:10:58.477Z",
+        "time": "2023-08-01T04:05:35.806Z",
+        "location": "New York",
+        "created_at": "2023-08-01T01:33:38.483Z",
+        "updated_at": "2023-07-31T20:39:52.892Z",
+        "car_id": "df1a9d78-8087-49e0-b075-bffc6b36f599",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e7f2d5a-eaae-4149-9ee1-0e5aac51dbb6",
+        "date": "2023-08-01T08:32:30.858Z",
+        "time": "2023-07-31T13:18:36.785Z",
+        "location": "London",
+        "created_at": "2023-07-31T14:32:30.793Z",
+        "updated_at": "2023-07-31T13:38:42.568Z",
+        "car_id": "a3c035d5-75b6-44a1-a3a6-548c8a229434",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac675a9f-63db-4a2e-be68-688185dd8f1d",
+        "date": "2023-07-31T19:07:56.412Z",
+        "time": "2023-07-31T16:44:48.680Z",
+        "location": "Tokyo",
+        "created_at": "2023-07-31T20:51:08.791Z",
+        "updated_at": "2023-08-01T05:35:29.948Z",
+        "car_id": "b3f85b68-bc14-4542-9cfd-fde3aadfd5d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd6be2f8-09ac-423e-a90c-bf6aa5027387",
+        "date": "2023-08-01T03:07:10.368Z",
+        "time": "2023-08-01T03:50:55.428Z",
+        "location": "Paris",
+        "created_at": "2023-08-01T03:46:24.904Z",
+        "updated_at": "2023-07-31T12:59:09.788Z",
+        "car_id": "df1a9d78-8087-49e0-b075-bffc6b36f599",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b75ec0b9-16c8-4a18-a08b-1b62f9fe8a92",
+        "date": "2023-08-01T10:00:22.432Z",
+        "time": "2023-07-31T22:53:45.108Z",
+        "location": "Sydney",
+        "created_at": "2023-07-31T11:34:53.534Z",
+        "updated_at": "2023-07-31T18:43:25.309Z",
+        "car_id": "a3c035d5-75b6-44a1-a3a6-548c8a229434",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "8d8be36e-97b5-4b3f-8b16-7aeb8b59ea37",
+        "status": "Available",
+        "created_at": "2023-07-31T11:48:50.804Z",
+        "updated_at": "2023-08-01T00:09:37.782Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5a5948c1-543f-4cbe-aee0-6f719ef7dec9",
+        "status": "In use",
+        "created_at": "2023-07-31T15:54:23.999Z",
+        "updated_at": "2023-08-01T10:08:03.011Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4690e9ae-d3b1-4789-9aa5-653f05949ac0",
+        "status": "Under maintenance",
+        "created_at": "2023-08-01T09:49:52.665Z",
+        "updated_at": "2023-08-01T00:57:21.031Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d8396949-c092-46b4-8ae1-771a6f4a4b5f",
+        "status": "Out of service",
+        "created_at": "2023-07-31T15:56:14.505Z",
+        "updated_at": "2023-07-31T23:06:42.811Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f04b61ea-74ef-4a67-8b08-37f4baf9cc4a",
+        "status": "Reserved",
+        "created_at": "2023-08-01T00:19:48.439Z",
+        "updated_at": "2023-07-31T13:23:35.369Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "4a26057d-a5a2-472a-a781-8e60ab760cc9",
+        "date": "2023-07-31T12:04:25.198Z",
+        "time": "2023-08-01T07:12:58.324Z",
+        "location": "New York",
+        "created_at": "2023-07-31T17:29:33.803Z",
+        "updated_at": "2023-07-31T12:37:19.395Z",
+        "car_id": "d8396949-c092-46b4-8ae1-771a6f4a4b5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dea6e92-25ec-47b5-bee7-6fa0be70cef2",
+        "date": "2023-08-01T02:29:09.360Z",
+        "time": "2023-07-31T22:23:08.397Z",
+        "location": "London",
+        "created_at": "2023-07-31T18:57:12.249Z",
+        "updated_at": "2023-07-31T18:51:39.564Z",
+        "car_id": "4690e9ae-d3b1-4789-9aa5-653f05949ac0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22579f32-34f6-4bc9-b9d2-c1296e45dbf4",
+        "date": "2023-08-01T00:32:46.413Z",
+        "time": "2023-08-01T02:11:41.603Z",
+        "location": "Tokyo",
+        "created_at": "2023-08-01T10:19:12.293Z",
+        "updated_at": "2023-08-01T06:06:40.513Z",
+        "car_id": "d8396949-c092-46b4-8ae1-771a6f4a4b5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26d74ef6-cdc7-4fb2-a4bf-6e302a8a2cc0",
+        "date": "2023-07-31T10:33:57.388Z",
+        "time": "2023-07-31T19:54:33.033Z",
+        "location": "Paris",
+        "created_at": "2023-07-31T23:57:28.324Z",
+        "updated_at": "2023-07-31T20:10:43.230Z",
+        "car_id": "f04b61ea-74ef-4a67-8b08-37f4baf9cc4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec325396-17e4-4d80-9b98-28f0a27d6c3f",
+        "date": "2023-07-31T18:00:53.637Z",
+        "time": "2023-07-31T15:59:56.427Z",
+        "location": "Sydney",
+        "created_at": "2023-07-31T12:42:21.591Z",
+        "updated_at": "2023-07-31T21:42:07.499Z",
+        "car_id": "4690e9ae-d3b1-4789-9aa5-653f05949ac0",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "f04273fe-9067-4c8f-ba72-81926625091a",
+        "status": "Available",
+        "created_at": "2023-08-01T09:14:25.680Z",
+        "updated_at": "2023-07-31T14:52:45.952Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f983d45d-358c-4763-b004-ad2b7d91aace",
+        "status": "In use",
+        "created_at": "2023-07-31T19:34:17.006Z",
+        "updated_at": "2023-07-31T10:35:05.409Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "712046b3-377c-4901-836f-dec9b7eb09b3",
+        "status": "Under maintenance",
+        "created_at": "2023-07-31T23:21:58.302Z",
+        "updated_at": "2023-08-01T06:54:50.615Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5feb2cd5-c570-4567-87b1-d19d813f6ff7",
+        "status": "Out of service",
+        "created_at": "2023-08-01T00:23:24.761Z",
+        "updated_at": "2023-08-01T02:36:51.110Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b628cd3d-f320-4e85-a15a-ab85c7e62617",
+        "status": "Reserved",
+        "created_at": "2023-08-01T01:47:35.232Z",
+        "updated_at": "2023-08-01T08:59:05.635Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f90ab65e-cc0c-4690-ad61-e0937ce3ef91",
+        "date": "2023-07-31T13:35:46.172Z",
+        "time": "2023-08-01T04:30:18.212Z",
+        "location": "New York",
+        "created_at": "2023-07-31T10:58:24.038Z",
+        "updated_at": "2023-07-31T17:48:57.104Z",
+        "car_id": "5feb2cd5-c570-4567-87b1-d19d813f6ff7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f43217a-1ab4-41fd-8a6b-949b8764d076",
+        "date": "2023-08-01T07:09:55.325Z",
+        "time": "2023-08-01T03:39:12.515Z",
+        "location": "London",
+        "created_at": "2023-07-31T20:39:48.976Z",
+        "updated_at": "2023-07-31T21:35:26.605Z",
+        "car_id": "712046b3-377c-4901-836f-dec9b7eb09b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf477d86-1b59-48a4-a927-75973eea1dec",
+        "date": "2023-08-01T03:08:26.121Z",
+        "time": "2023-07-31T15:25:34.933Z",
+        "location": "Tokyo",
+        "created_at": "2023-07-31T20:46:10.492Z",
+        "updated_at": "2023-08-01T06:44:55.725Z",
+        "car_id": "5feb2cd5-c570-4567-87b1-d19d813f6ff7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc01ffd0-1a54-40d8-adfb-63a2ed3730f3",
+        "date": "2023-08-01T09:08:45.496Z",
+        "time": "2023-08-01T00:44:15.902Z",
+        "location": "Paris",
+        "created_at": "2023-07-31T20:49:11.877Z",
+        "updated_at": "2023-07-31T12:24:10.084Z",
+        "car_id": "f983d45d-358c-4763-b004-ad2b7d91aace",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "feb5652b-5ae1-4f2e-8ac0-ccfffa995729",
+        "date": "2023-08-01T06:37:15.983Z",
+        "time": "2023-07-31T14:03:32.584Z",
+        "location": "Sydney",
+        "created_at": "2023-08-01T02:50:37.244Z",
+        "updated_at": "2023-08-01T06:46:27.595Z",
+        "car_id": "5feb2cd5-c570-4567-87b1-d19d813f6ff7",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  }
+]
